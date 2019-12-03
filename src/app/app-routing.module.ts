@@ -8,7 +8,7 @@ import { PageNotFoundComponent } from './page-not-found.component';
 const routes: Routes = [
 {path:'',redirectTo:'/Home',pathMatch:'full'},
 
-{path:'Hero',component:HerosDetailsComponent},
+
 {path:'Hero/:heros-list',component:HerosListComponent},
 
 //if any other page which is not defined thn this page will open

@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class HerosDetailsComponent implements OnInit {
 
   @Input() public selectedHero;
+  
   constructor() { }
 
   ngOnInit() {

@@ -82,4 +82,9 @@ export class HerosListComponent implements OnInit {
     console.log("I m clicked : "+heroObj.heroId+" "+heroObj.heroName);
   }
 
+  isSerachFound=false;
+  searchHero(){
+    this.isSerachFound=true
+    console.log("i m here"+this.isSerachFound);
+  }
 }
