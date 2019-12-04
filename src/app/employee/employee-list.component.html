@@ -1,0 +1,22 @@
+<p class="display-4 text-primary">employee-list works!</p>
+
+<br/>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Person Id</th>
+            <th>person Name</th>
+            <th>age</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let empObj of empArry" >
+            <td> {{empObj.personId}}</td>
+            <td> {{empObj.personName}}</td>
+            <td> {{empObj.age}}</td>
+            <td>  <a routerLink="#" class="h5 text-danger" (click)="DeletepObj(empObj)">Delete</a></td>
+        </tr>
+    </tbody>
+</table>
+<br/>

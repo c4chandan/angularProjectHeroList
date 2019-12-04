@@ -1,0 +1,31 @@
+
+[
+    {
+      "employeeId":"1",
+      "employeeName":"Chandan",
+      "employeeGender":"male",
+      "employeeSalary":"15000"
+    },
+    
+    {
+      "employeeId":"2",
+      "employeeName":"Raj",
+      "employeeGender":"male",
+      "employeeSalary":"25000"
+    },
+    
+    {
+      "employeeId":"3",
+      "employeeName":"Etesh",
+      "employeeGender":"male",
+      "employeeSalary":"35000"
+    },
+    
+    {
+      "employeeId":"4",
+      "employeeName":"Rahul",
+      "employeeGender":"male",
+      "employeeSalary":"22000"
+    }
+   
+  ]

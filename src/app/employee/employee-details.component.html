@@ -1,0 +1,17 @@
+<p class="display-4 text-danger">employee-details works!</p>
+
+<br/>
+<table class="table table-hover table-dark">
+    <thead>
+        <tr>
+            <td>Employee Id</td>
+            <td>Employee Name</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let empObj of empArry" >
+            <td> {{empObj.employeeId}}</td>
+            <td> {{empObj.employeeName}}</td>
+        </tr>
+    </tbody>
+</table>

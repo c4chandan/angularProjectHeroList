@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./heros-list.component.css']
 })
 export class HerosListComponent implements OnInit {
+ 
 
   constructor() { }
 
@@ -82,9 +83,9 @@ export class HerosListComponent implements OnInit {
     console.log("I m clicked : "+heroObj.heroId+" "+heroObj.heroName);
   }
 
-  isSerachFound=false;
-  searchHero(){
-    this.isSerachFound=true
-    console.log("i m here"+this.isSerachFound);
+  isSerachFound: boolean;
+  searchHero(_heroObj:any){
+    this.isSerachFound=true 
+    console.log("i m here"+this.heroObj.heroId+" "+this.heroObj.heroName);
   }
 }
